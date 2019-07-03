@@ -16,7 +16,10 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Shared/Agenda_Prueba"
+					"notebookPath": "/Shared/adfPrueba/pruebaadf",
+					"baseParameters": {
+						"input": "@pipeline().parameters.name"
+					}
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks1",
